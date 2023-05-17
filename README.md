@@ -1,58 +1,27 @@
-# create-svelte
+# Svelte Mobile Wrapper and Blob Components
 
-Everything you need to build a Svelte library, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This repository holds component definitions for:
 
-Read more about creating a library [in the docs](https://kit.svelte.dev/docs/packaging).
+- Mobile Wrapper: Mobile mockup container for larger screen sizes.
 
-## Creating a project
+- Blob: Animated SVG blob
 
-If you're seeing this, you've probably already done this step. Congrats!
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+### Mobile Wrapper
 
-## Developing
+Assume you've created a mobile-first design. You may now include a component in your mobile design that allows your app to still be responsive for small and medium devices. On larger devices, however, it will function as a mobile "mockup" container for your app. 
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-```bash
-npm run dev
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+![](assets/291bd82677801272a95752b17a9b9f4fe32916cc.png)
 
-Everything inside `src/lib` is part of your library, everything inside `src/routes` can be used as a showcase or preview app.
+<img src="assets/61e121e5168999297bf15fc3ae87a3ce5af9e92f.png" title="" alt="BbCZnTnslz.png" width="272">
 
-## Building
+### Blob
 
-To build your library:
 
-```bash
-npm run package
-```
 
-To create a production version of your showcase app:
 
-```bash
-npm run build
-```
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
-
-## Publishing
-
-Go into the `package.json` and give your package the desired name through the `"name"` option. Also consider adding a `"license"` field and point it to a `LICENSE` file which you can create from a template (one popular option is the [MIT license](https://opensource.org/license/mit/)).
-
-To publish your library to [npm](https://www.npmjs.com):
-
-```bash
-npm publish
-```
+![opera_QN0CQwmqsz.gif](assets/444990825cbff73b552c42d236f48a6e6bda4705.gif)
